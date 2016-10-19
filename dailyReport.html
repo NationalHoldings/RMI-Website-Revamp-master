@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>RMI Reporting</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- Theme CSS -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <img src="http://i.imgur.com/CeuQF8c.png" alt="">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="index.html#list">Job List</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="index.html#create">Create Job</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="index.html#edit">Edit Job</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="index.html#search">Search</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="index.html#logout">Logout</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Daily / Weekly Report</h1>
+                        <p class="intro-text">Click the arrow to view.
+	                        <br>
+                        <a href="#report" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section id="report" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Report for the week of 12/29/13 - 1/4/14 is below:</h2>
+                	<div id="reporttable">
+			<table class="table table-inverse table-bordered">
+				<tr>
+					<td></td>
+					<td>SUNDAY</td>
+					<td>MONDAY</td>
+					<td>TUESDAY</td>
+					<td>WEDNESDAY</td>
+					<td>THURSDAY</td>
+					<td>FRIDAY</td>
+					<td>SATURDAY</td>
+					<td>TOTALS</td>
+  				</tr>
+  				<tr>
+  					<td></td>
+  					<td>12/29/13</td>
+  					<td>12/30/13</td>
+  					<td>12/31/13</td>
+  					<td>1/1/14</td>
+  					<td>1/2/14</td>
+  					<td>1/3/14</td>
+  					<td>1/4/14</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>Worker</td>
+  					<td></td>
+  					<td></td>
+  					<td></td>
+  					<td></td>
+  					<td></td>
+  					<td></td>
+  					<td></td>
+  					<td></td>
+  				</tr>
+  				<tr>
+	  				<td>Superintendents:</td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+  				</tr>
+  				<tr>
+	  				<td>Mike</td>
+	  				<td>13</td>
+	  				<td>12</td>
+	  				<td>9</td>
+	  				<td>5</td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td>39 (BP)</td>
+  				</tr>
+  				<tr>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td>(PW)</td>
+  				</tr>
+  				<tr>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td>(HE)</td>
+  				</tr>
+  				<tr>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td>(TOTAL)</td>
+  				</tr>
+  				<tr>
+	  				<td>(Placeholder)</td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+  				</tr>
+  				<tr>
+	  				<td>Operators:</td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+  				</tr>
+  				<tr>
+	  				<td>Danny D.</td>
+	  				<td>13</td>
+	  				<td>12</td>
+	  				<td>9</td>
+	  				<td>5</td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td>39 (BP)</td>
+  				</tr>
+  				<tr>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td>(PW)</td>
+  				</tr>
+  				<tr>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td>(HE)</td>
+  				</tr>
+  				<tr>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td>(TOTAL)</td>
+  				</tr>
+			</table>
+		</div>
+		<div id="reporttable2">
+			<table class="table table-inverse table-bordered">
+				<tr>
+					<td></td>
+					<td>SUNDAY</td>
+					<td>MONDAY</td>
+					<td>TUESDAY</td>
+					<td>WEDNESDAY</td>
+					<td>THURSDAY</td>
+					<td>FRIDAY</td>
+					<td>SATURDAY</td>
+					<td>TOTALS</td>
+  				</tr>
+  				<tr>
+  					<td></td>
+  					<td>12/29/13</td>
+  					<td>12/30/13</td>
+  					<td>12/31/13</td>
+  					<td>1/1/14</td>
+  					<td>1/2/14</td>
+  					<td>1/3/14</td>
+  					<td>1/4/14</td>
+  					<td></td>
+  				</tr>
+  				<tr>
+  					<td>Rubblize:</td>
+  					<td>4007</td>
+  					<td>2564</td>
+  					<td></td>
+  					<td></td>
+  					<td></td>
+  					<td></td>
+  					<td></td>
+  					<td>6571</td>
+  				</tr>
+  				<tr>
+	  				<td>Removal:</td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td>0</td>
+  				</tr>
+  				<tr>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+  				</tr>
+  				<tr>
+	  				<td>START</td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+  				</tr>
+  				<tr>
+	  				<td>(Eng. Hrs.) 6366.7</td>
+	  				<td>6378.5</td>
+	  				<td>6387.7</td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td>21.0</td>
+  				</tr>
+  				<tr>
+	  				<td>(Osc. Hrs.) 2590.7</td>
+	  				<td>2598.5</td>
+	  				<td>2604.5</td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td>13.8</td>
+  				</tr>
+  				<tr>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+  				</tr>
+  				<tr>
+	  				<td>Amplitude (Normal/Air)</td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+  				</tr>
+  				<tr>
+	  				<td>Amplitude (Normal/In Work)</td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+  				</tr>
+  				<tr>
+	  				<td>RPM Set Point (Normal)</td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+  				</tr>
+  				<tr>
+	  				<td>Step Req?</td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+  				</tr>
+  				<tr>
+	  				<td>Concrete Hardness (Mpa)</td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+  				</tr>
+  				<tr>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+  				</tr>
+  				<tr>
+	  				<td>Fuel</td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+  				</tr>
+  				<tr>
+	  				<td>Hydraulic Fluid</td>
+	  				<td></td>
+	  				<td></td>
+	  				<td>25.0</td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td>25.0</td>
+  				</tr>
+  				<tr>
+	  				<td>Water</td>
+	  				<td>600.0</td>
+	  				<td>600.0</td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td>1200.0</td>
+  				</tr>
+  				<tr>
+	  				<td>Shoe Usage</td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+	  				<td></td>
+  				</tr>
+			</table>
+		</div>
+		<div id="tabs">
+			<ul class="tab">
+				<li><a href="#" class="tablinks" onclick="openDay(event, 'Sunday')">Sunday</a></li>
+				<li><a href="#" class="tablinks" onclick="openDay(event, 'Monday')">Monday</a></li>
+				<li><a href="#" class="tablinks" onclick="openDay(event, 'Tuesday')">Tuesday</a></li>
+				<li><a href="#" class="tablinks" onclick="openDay(event, 'Wednesday')">Wednesday</a></li>
+				<li><a href="#" class="tablinks" onclick="openDay(event, 'Thursday')">Thursday</a></li>
+				<li><a href="#" class="tablinks" onclick="openDay(event, 'Friday')">Friday</a></li>
+				<li><a href="#" class="tablinks" onclick="openDay(event, 'Saturday')">Saturday</a></li>
+			</ul>
+
+			<div id="Sunday" class="tabcontent">
+				<h3>Sunday</h3>
+				<p>Notes go here.</p>
+			</div>
+
+			<div id="Monday" class="tabcontent">
+				<h3>Monday</h3>
+				<p>Notes go here.</p> 
+			</div>
+
+			<div id="Tuesday" class="tabcontent">
+				<h3>Tuesday</h3>
+				<p>Notes go here.</p>
+			</div>
+			
+			<div id="Wednesday" class="tabcontent">
+				<h3>Wednesday</h3>
+				<p>Notes go here.</p>
+			</div>
+			
+			<div id="Thursday" class="tabcontent">
+				<h3>Thursday</h3>
+				<p>Notes go here.</p>
+			</div>
+			
+			<div id="Friday" class="tabcontent">
+				<h3>Friday</h3>
+				<p>Notes go here.</p>
+			</div>
+			
+			<div id="Saturday" class="tabcontent">
+				<h3>Saturday</h3>
+				<p>Notes go here.</p>
+			</div>
+		</div>
+				<div id="buttons">
+					<button type="button" onclick="parent.location='partsReport.html'" class="btn btn-default btn-lg">View Parts and Repair Report</button><br><br>
+				
+					<script>
+					function openDay(evt, dayName) {
+						var i, tabcontent, tablinks;
+						tabcontent = document.getElementsByClassName("tabcontent");
+						for (i = 0; i < tabcontent.length; i++) {
+						tabcontent[i].style.display = "none";
+    					}
+						tablinks = document.getElementsByClassName("tablinks");
+						for (i = 0; i < tablinks.length; i++) {
+							tablinks[i].className = tablinks[i].className.replace(" active", "");
+    					}
+						document.getElementById(dayName).style.display = "block";
+						evt.currentTarget.className += " active";
+					}
+		</script>
+				</div>
+	        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; RMI 2016</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/grayscale.min.js"></script>
+
+</body>
+
+</html>
